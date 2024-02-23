@@ -7,8 +7,8 @@ from prepares.filter import show_filter_page
 
 
 class PageType(Enum):
-    CROP = "crop"
-    FILTER = "filter"
+    CROP = "Crop"
+    FILTER = "Filter"
 
 
 def main():

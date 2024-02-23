@@ -68,7 +68,7 @@ def show_crop_page():
             prepare_img = transform(img)
             st.image(prepare_img)
 
-            # Create horizontal layout for buttons
+            # ボタンの水平レイアウトを作成
             save_img, save_img_another = st.columns(2)
 
             if save_img.button("Save image"):

@@ -11,7 +11,7 @@ def show_filter_page():
     """
     メイン処理。
     """
-    file_path = st.file_uploader("画像を選択してください")
+    file_path = st.file_uploader("Choose an image")
 
     if file_path:
         preparator = Preparation()

@@ -21,5 +21,5 @@ Click Me!
 2. Run Streamlit.
 
 ```bash:
-streamlit run streamlit.py
+streamlit run streamlit_app.py
 ```
